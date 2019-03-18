@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Pokemon Go!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
   <body>
-    <div id="root"></div>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <script src="data.js"></script>
-    <script src="main.js"></script>
+  <header><h1>Bienvenido al mundo Pokemon Go!</h1></header>
+<main>
+<p><mark>Donde conoceras mas sobre tus pokemones favoritos
+  o cosas que no sabias sobre ellos </mark></p>
+<p><strong>¿Qué es Pokémon GO? ¿Por qué todo el mundo juega?</strong> </p>
+<p> <a href="https://pokemaster.es/pokemon-go/" target="_blank">Pokémon GO </a></strong>
+    es la nueva experiencia jugable para móviles ofrecida por <strong>Pokémon Company</strong> en colaboración con
+    <strong> Niantic,</strong> lanzada oficialmente el 6 de julio y llegando a diversos países, incluídos los de habla 
+    hispana, en los días posteriores. 
+    Esta aplicación hace uso de la realidad aumentada de los teléfonos móviles para mostrar a los Pokémon 
+    en nuestro mundo, utilizando para ello nuestra propia localización y funciones de GPS , como si de Google Maps 
+    se tratase, haciendo para ello un uso excesivo de la batería y de los datos móviles, para lo cual ya os adelantamos
+    en su momento una 
+    <a href=" https://pokemaster.es/guia-para-ahorrar-bateria-y-datos-en-pokemon-go-no-97823/" target="_blank"> serie de consejos para evitar estos problemas</a>
+    La aplicación de por sí contiene todo lo necesario para llevar a cabo nuestra aventura, funcionando
+    de esta forma como Pokédex, Mochila, Equipo, entre otros tantos escenarios típicos de los juegos clásicos,
+    así como nuevos, tales como el rádar de localización de especies cercanas.
+    Asimismo, para poder hacer uso de la misma, será necesario salir a la calle, moviéndose por nuestra zona para
+    encontrar o bien Pokémon salvajes que podremos capturar por un nuevo método, así como encontrar las Poképaradas,
+    zonas especiales que nos darán objetos de todo tipo, incluso huevos</p>
+    <div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" 
+  aria-haspopup="true" aria-expanded="false">Menu De Opciones<span class="caret"></span></button>
+  <ul id="option-menu" class="dropdown-menu">
+  <li id="order-a-z"><a href="#">Ordenar de A-Z</a></li>
+  <li id="order-z-a"><a href="#">Ordenar de Z-A</a></li>
+  <li id="pokemon-type"><a href="#">Filtrar por Tipo de Pokemon</a></li>
+  <li id="calculate"><a href="#">Calcular de KG-LIBRAS</a></li>
+ </ul></div>
+ <div>hola munoos</div>
+
+<div id="renderizando" class="container-fluid"></div>
+<br>
+
+
+
+
+</main>
+  <div id="root"></div>
+    <!-- <script src="./data/injuries/injuries.js"></script>  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="./data/pokemon/pokemon.js"></script> 
+  <script src="data.js"></script>
+  <script src="main.js"></script>
   </body>
-</html>
+  </html>
