@@ -3,11 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Pokemon Go!</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<meta name="viewport" content="width=device-width" initial-scale=1/>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -33,34 +29,20 @@
     Asimismo, para poder hacer uso de la misma, será necesario salir a la calle, moviéndose por nuestra zona para
     encontrar o bien Pokémon salvajes que podremos capturar por un nuevo método, así como encontrar las Poképaradas,
     zonas especiales que nos darán objetos de todo tipo, incluso huevos</p>
-
-<!-- <img src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="Bulbasaur"> -->
-
+     <select  id="option-menu">
+      <option value="orderAz">Ordenar de A-Z</option>
+      <option value="orderZa">Ordenar de Z-A</option>
+      <option value="pokemontype">Filtrar por Tipo de Pokemon</option>
+      <option value="calculate">Calcular de KG-LIBRAS</option>
+    </select>
 <div id="renderizando" class="container-fluid">
-
-    <!-- <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <a href="#" class="thumbnail"><p></p>
-            <img src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="Bulbasaur">
-          </a>
-        </div>
-</div> -->
-<!-- <div class="caption">
-    <h3>Thumbnail label</h3>
-    <p></p>
-  </div> -->
-
 
 
 
 
     <div id="root"></div>
     <!-- <script src="./data/injuries/injuries.js"></script>  -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="./data/pokemon/pokemon.js"></script> 
-     <!-- <script src="./data/steam/steam.js"></script>  -->
-     <!-- <script src="./data/worldbank/worldbank.js"></script>  -->
-     <!-- <script src="./data/lol/lol.js"></script> -->
+    <script src="./data/pokemon/pokemon.js"></script>
     <script src="data.js"></script>
     <script src="main.js"></script>
   </main>
