@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Pokemon Go!</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon Go!</title>
+<meta name="viewport" content="width=device-width" initial-scale=1/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
   <body>
   <header><h1>Bienvenido al mundo Pokemon Go!</h1></header>
 <main>
@@ -28,19 +27,13 @@
     Asimismo, para poder hacer uso de la misma, será necesario salir a la calle, moviéndose por nuestra zona para
     encontrar o bien Pokémon salvajes que podremos capturar por un nuevo método, así como encontrar las Poképaradas,
     zonas especiales que nos darán objetos de todo tipo, incluso huevos</p>
-    <div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" 
-  aria-haspopup="true" aria-expanded="false">Menu De Opciones<span class="caret"></span></button>
-  <ul id="option-menu" class="dropdown-menu">
-  <li id="order-a-z"><a href="#">Ordenar de A-Z</a></li>
-  <li id="order-z-a"><a href="#">Ordenar de Z-A</a></li>
-  <li id="pokemon-type"><a href="#">Filtrar por Tipo de Pokemon</a></li>
-  <li id="calculate"><a href="#">Calcular de KG-LIBRAS</a></li>
- </ul></div>
- <div>hola munoos</div>
-
-<div id="renderizando" class="container-fluid"></div>
-<br>
+     <select  id="option-menu">
+      <option value="orderAz">Ordenar de A-Z</option>
+      <option value="orderZa">Ordenar de Z-A</option>
+      <option value="pokemontype">Filtrar por Tipo de Pokemon</option>
+      <option value="calculate">Calcular de KG-LIBRAS</option>
+    </select>
+<div id="renderizando" class="container-fluid">
 
 
 
@@ -48,10 +41,9 @@
 </main>
   <div id="root"></div>
     <!-- <script src="./data/injuries/injuries.js"></script>  -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>  
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="./data/pokemon/pokemon.js"></script> 
-  <script src="data.js"></script>
-  <script src="main.js"></script>
+    <script src="./data/pokemon/pokemon.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+  </main>
   </body>
   </html>
