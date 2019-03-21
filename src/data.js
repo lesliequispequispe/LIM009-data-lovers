@@ -3,8 +3,8 @@
 const example = () => {
   return 'example';
 }; */
-
-/* const newArr = [];
-const arrValues = Object.values(POKEMON);
+/* pokemon1.getElementById(pokemon1); */
+/*const newArr = [];
+const arrValues = Object.values();
 const arrLength = arrValues.length;
-console.log(arrValues); */
+console.log(arrLength)*/

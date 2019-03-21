@@ -3,19 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Pokemon Go!</title>
-<meta name="viewport" content="width=device-width" initial-scale=1/>
+    <meta name="viewport" content="width=device-width" initial-scale=1/>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  <header><h1>Bienvenido al mundo Pokemon Go!</h1></header>
-<main>
-<p><mark>Donde conoceras mas sobre tus pokemones favoritos
-  o cosas que no sabias sobre ellos </mark></p>
-<p><strong>¿Qué es Pokémon GO? ¿Por qué todo el mundo juega?</strong> </p>
-<p> <a href="https://pokemaster.es/pokemon-go/" target="_blank">Pokémon GO </a></strong>
-    es la nueva experiencia jugable para móviles ofrecida por <strong>Pokémon Company</strong> en colaboración con
-    <strong> Niantic,</strong> lanzada oficialmente el 6 de julio y llegando a diversos países, incluídos los de habla 
-    hispana, en los días posteriores. 
+    <header>
+      <h1>Bienvenido al mundo Pokemon Go!</h1>
+    </header>
+    <main>
+     <p>
+       <mark>Donde conoceras mas sobre tus pokemones favoritos o cosas que no sabias sobre ellos </mark>
+    </p>
+    <p>
+      <strong>¿Qué es Pokémon GO? ¿Por qué todo el mundo juega?</strong>
+    </p>
+    <p>
+      <a href="https://pokemaster.es/pokemon-go/" target="_blank">Pokémon GO</a> es la nueva experiencia jugable para móviles ofrecida por
+      <strong> Pokémon Company</strong> en colaboración con <strong> Niantic </strong> lanzada oficialmente el 6 de julio y llegando a diversos países, incluídos los de habla hispana, en los días posteriores. 
     Esta aplicación hace uso de la realidad aumentada de los teléfonos móviles para mostrar a los Pokémon 
     en nuestro mundo, utilizando para ello nuestra propia localización y funciones de GPS , como si de Google Maps 
     se tratase, haciendo para ello un uso excesivo de la batería y de los datos móviles, para lo cual ya os adelantamos
@@ -27,16 +31,31 @@
     Asimismo, para poder hacer uso de la misma, será necesario salir a la calle, moviéndose por nuestra zona para
     encontrar o bien Pokémon salvajes que podremos capturar por un nuevo método, así como encontrar las Poképaradas,
     zonas especiales que nos darán objetos de todo tipo, incluso huevos</p>
-     <select  id="option-menu">
-      <option value="orderAz">Ordenar de A-Z</option>
-      <option value="orderZa">Ordenar de Z-A</option>
-      <option value="pokemontype">Filtrar por Tipo de Pokemon</option>
-      <option value="calculate">Calcular de KG-LIBRAS</option>
-    </select>
-<div id="renderizando" class="container-fluid">
-
+     <button>Ordenar por nombre de A-Z</button>
+     <button>Ordenar por nombre de Z-A</button>
+     <button>Calcular de KG-LIBRAS</button>
+     <label for="">Fltrar por tipo de Pokemon</label>
+     <select name="" id="">
+        <option>Grass</option>
+        <option>Poison</option>
+        <option>Fire</option>
+        <option>Flying</option>
+        <option>Water</option>
+        <option>Bug</option>
+       <option>Normal</option>
+       <option>Electric</option>
+       <option>Ground</option>
+       <option>Fighting</option>
+       <option>Psychic</option>
+       <option>Rock</option>
+      <option>Ice</option>
+      <option>Ghost</option>
+      <option>Dragon</option> 
+  </select>
+     
+     <div id="renderizando" class="container-fluid"></div>
 </main>
-  <div id="root"></div>
+
     <!-- <script src="./data/injuries/injuries.js"></script>  -->
     <script src="./data/pokemon/pokemon.js"></script>
     <script src="data.js"></script>
