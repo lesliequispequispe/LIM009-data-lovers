@@ -47,11 +47,5 @@ opcionesDeFiltrado.addEventListener("change",() => {
 let opcionesFiltradoValue =  opcionesDeFiltrado.value;
 pintarPokemons(filtrandoPokemonsTipo(arrDataPokemons,opcionesFiltradoValue));
  })
- const tipo = arrDataPokemons[0].type
-console.log(tipo);
- //arrType=[]
- //for (let i=0; arrDataPokemons.length; i++){
 
- //}
- // prueba
  
