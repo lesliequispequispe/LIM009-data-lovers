@@ -22,7 +22,7 @@ const pintarPokemons = (data) => {
               </div>
               </div>`
  }
- containerPokemonsElement.innerHTML = string;
+ return containerPokemonsElement.innerHTML = string;
 };
 /* llamando a la función para pintar los pokemons */
 pintarPokemons(arrDataPokemons);
@@ -47,4 +47,3 @@ opcionesDeFiltrado.addEventListener("change",() => {
 let opcionesFiltradoValue =  opcionesDeFiltrado.value;
 pintarPokemons(filtrandoPokemonsTipo(arrDataPokemons,opcionesFiltradoValue));
  })
-
