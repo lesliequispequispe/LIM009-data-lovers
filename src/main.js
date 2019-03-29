@@ -53,4 +53,5 @@ console.log(tipo);
  //for (let i=0; arrDataPokemons.length; i++){
 
  //}
+ // prueba
  
