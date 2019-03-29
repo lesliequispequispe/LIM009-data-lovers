@@ -7,20 +7,20 @@ const pintarPokemons = (data) => {
  let string = '';
  for(let i = 0; i < data.length; i++){
    string += `<div class="ancho">
-                <img src=${data[i].img} alt=${data[i].name} />
-                  <div>
-                    <h3>nombre: ${data[i].name} </h3>
-                    <p>altura: ${data[i].height}</p> 
-                    <p>peso:${data[i].weight}</p>
-                    <p>posibilidad de engendro:${data[i].spawn_chance}</p>
-                    <p>huevo:${data[i].egg}</p> 
-                    <p>avg engendra:${data[i].avg_spawns}</p>
-                    <p>tipo:${data[i].type}</p>
-                    <p>debilidades:${data[i].weaknesses}</p>
-                    <p>multiplicadores:${data[i].multipliers}</p>
-                    <p>peso libras:${data[i].weightLibras}</p>  
-                  </div>
-              </div>`;
+               <img src=${data[i].img} alt=${data[i].name} />
+               <div>
+                <h3>nombre: ${data[i].name} </h3>
+                <p>altura: ${data[i].height}</p> 
+                <p>peso:${data[i].weight}</p>
+                <p>posibilidad de engendro:${data[i].spawn_chance}</p>
+                <p>huevo:${data[i].egg}</p> 
+                <p>avg engendra:${data[i].avg_spawns}</p>
+                <p>tipo:${data[i].type}</p>
+                <p>debilidades:${data[i].weaknesses}</p>
+                <p>multiplicadores:${data[i].multipliers}</p>
+                <p>pesolibras:${data[i].weightLibras}</p>  
+              </div>
+              </div>`
  }
  return containerPokemonsElement.innerHTML = string;
 };
