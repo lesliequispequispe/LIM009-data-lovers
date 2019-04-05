@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width" initial-scale=1, maximun-scale=1/>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div>
-    <audio  src="audio/pokemon.mp3.mp3" controls="controls"></audio>
-    <header>
-      <h1>Bienvenido al mundo Pokemon Go!</h1>
-    </header>
-    <main>
-       <p>
-      Donde conoceras mas sobre tus pokemones favoritos o cosas que no sabias sobre ellos
+  <body class="contenedor-global">
+    
+    <header class="bienvenida">
+      <div class="titulo">
+        <audio  class="audio"  src="audio/pokemon.mp3.mp3" controls="controls"></audio>
+        <h1>Bienvenido al mundo Pokemon Go!</h1>
+      </div>
+      <div>
+        <img  src="./imagen/pokemon.jpg" class="img-banner">
+      </div>
+      <p>
+        <mark>Donde conoceras mas sobre tus pokemones favoritos o cosas que no sabias sobre ellos </mark>
       </p>
       <p>
         <strong>¿Qué es Pokémon GO? ¿Por qué todo el mundo juega?</strong>
       </p>
-    
-      <p>
+   </header>
+   <main class="introduccion">
+     <p>
       <a href="https://pokemaster.es/pokemon-go/" target="_blank">Pokémon GO</a> es la nueva experiencia jugable para móviles ofrecida por
       <strong> Pokémon Company</strong> en colaboración con <strong> Niantic </strong> lanzada oficialmente el 6 de julio y llegando a diversos países, incluídos los de habla hispana, en los días posteriores. 
       Esta aplicación hace uso de la realidad aumentada de los teléfonos móviles para mostrar a los Pokémon 
