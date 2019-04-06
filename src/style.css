@@ -12,5 +12,12 @@ background-color: rgb( 212, 239, 223);
 .container-fluid {
 margin: 100px 0px 200px 0 ;
 }
+
+  
+  @media screen and (min-width : 370px){
+
+
+  }
+  
   
   
