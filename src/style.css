@@ -1,16 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
-font-size: 17px;
-background-color: rgb( 212, 239, 223);
+font-size: 15px;
+box-sizing: border-box;
 
 }
-.ancho {
-  width: 21%;
-    display: inline-block;
-    padding: 70px 20px;
-    border: 2px solid #000000;
+
+.contenedor-global{
+  background:rgba(12, 202, 53, 0.801);
+
+  
 }
-.container-fluid {
-margin: 100px 0px 200px 0 ;
+.header{
+  display: -moz-inline-box;
+}
+
+
+.bienvenida {
+  background: #14e90d31;
+  color: aliceblue;
+  
 }
 
   
@@ -20,4 +32,48 @@ margin: 100px 0px 200px 0 ;
   }
   
   
+
+
+.img-banner{
+  width:100%;
+  background-image: url(./imagen/pokemon500x200.png);
+}
+.box-ordenar-btns{
+  display: block;
+  width:100%;
+}
+  
+.card {
+  background: rgb(49, 48, 48);
+  width: 12rem;
+  margin: 3%;
+  display: inline-block;
+  padding: 10px;
+  
+  
+}
+.card1 {
+  background: white;
+  padding: 1em;
+    color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ 
+  
+}
+.imagen-pokemon{
+  background:red;
+  width: 100%;
+  
+  text-align:center;
+}
+
+.container-fluid {
+  margin: 100px 0px 200px 0 ;
+  background-image: url(./imagen/fondo-turquesa-brillante_1048-1254.jpg);
+  text-justify: center;
+}
+.introduccion {
+  background: #e90d9f;
+}
+
   

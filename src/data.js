@@ -1,8 +1,4 @@
-/* /* Manejo de data */
-//window.example = example;
-/*const example = () => {
-  return 'example';
-};*/
+
 const filtrandoPokemonsTipo = (data,condicion) => {
   const filtrandoPokemons = data.filter(
    (a) => 
@@ -11,7 +7,7 @@ return filtrandoPokemons;
 }
 window.filtrandoPokemonsTipo = filtrandoPokemonsTipo;
 
-const ordenandoPokemonesAscendente = (data,sortBy,sortOrder) => {
+const ordenandoPokemonesAscendente = (data,sortBy) => {
 data.sort(function(a,b) {
  sortBy==name;
  var x = a.name.toLowerCase();
