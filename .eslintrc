@@ -14,9 +14,17 @@
     "example": false, 
     "POKEMON": false,
     "pokemon": false,
+<<<<<<< HEAD
     "assert": false
   },
   "rules": {
+=======
+    "ordenandoPokemonesAscendente": false,
+    "calculandoPesoKgLb": false,
+    "filtrandoPokemonsTipo":false
+   },
+    "rules": {
+>>>>>>> 0f86f7b23d30cb194a34b41b0788766d34d2a7d9
     "allowTernary": true,
     "linebreak-style": 0,
     "global-require": 0,
@@ -37,11 +45,19 @@
     "padded-blocks": [1, "never"],
     "space-before-blocks": 1,
     "space-in-parens": 1,
+<<<<<<< HEAD
     "spaced-comment": 1,
+=======
+    "spaced-comment": 1,  
+>>>>>>> 0f86f7b23d30cb194a34b41b0788766d34d2a7d9
     "id-length": [1, { "exceptions": ["i", "j", "x"] }],
     "indent": [1, 2],
     "no-array-constructor": 1,
     "no-const-assign": "error",
     "no-var": "error"
+<<<<<<< HEAD
  }
+=======
+ } 
+>>>>>>> 0f86f7b23d30cb194a34b41b0788766d34d2a7d9
 }
