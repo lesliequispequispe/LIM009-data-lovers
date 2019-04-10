@@ -3,73 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>Pokemon Go!</title>
-    <meta name="viewport" content="width=device-width" initial-scale=1, maximun-scale=1/>
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="contenedor-global">
-    
-    <header class="bienvenida">
-      <div class="titulo">
-        <audio  class="audio"  src="audio/pokemon.mp3.mp3" controls="controls"></audio>
-        <h1>Bienvenido al mundo Pokemon Go!</h1>
-      </div>
-      <div>
-        <img  src="./imagen/pokemon.jpg" class="img-banner">
-      </div>
-      <p>
-        <mark>Donde conoceras mas sobre tus pokemones favoritos o cosas que no sabias sobre ellos </mark>
-      </p>
-      <p>
-        <strong>¿Qué es Pokémon GO? ¿Por qué todo el mundo juega?</strong>
-      </p>
-   </header>
-   <main class="introduccion">
-     <p>
-      <a href="https://pokemaster.es/pokemon-go/" target="_blank">Pokémon GO</a> es la nueva experiencia jugable para móviles ofrecida por
-      <strong> Pokémon Company</strong> en colaboración con <strong> Niantic </strong> lanzada oficialmente el 6 de julio y llegando a diversos países, incluídos los de habla hispana, en los días posteriores. 
-      Esta aplicación hace uso de la realidad aumentada de los teléfonos móviles para mostrar a los Pokémon 
-      en nuestro mundo, utilizando para ello nuestra propia localización y funciones de GPS , como si de Google Maps 
-      se tratase, haciendo para ello un uso excesivo de la batería y de los datos móviles, para lo cual ya os adelantamos
-      en su momento una 
-      <a href=" https://pokemaster.es/guia-para-ahorrar-bateria-y-datos-en-pokemon-go-no-97823/" target="_blank"> serie de consejos para evitar estos problemas</a>
-      La aplicación de por sí contiene todo lo necesario para llevar a cabo nuestra aventura, funcionando
-      de esta forma como Pokédex, Mochila, Equipo, entre otros tantos escenarios típicos de los juegos clásicos,
-      así como nuevos, tales como el rádar de localización de especies cercanas.
-      Asimismo, para poder hacer uso de la misma, será necesario salir a la calle, moviéndose por nuestra zona para
-      encontrar o bien Pokémon salvajes que podremos capturar por un nuevo método, así como encontrar las Poképaradas,
-      zonas especiales que nos darán objetos de todo tipo, incluso huevos</p>
-    </main>
-  <div class="contenedor_global">
-     <button id="ordenarAz">Ordenar por nombre de A-Z</button>
-     <button id="ordenarZa">Ordenar por nombre de Z-A</button>
-     <button id="calculate">Calcular de KG-LIBRAS</button>
-     <label for="">Fltrar por tipo de Pokemon</label>
-     <select id="opcionesDeFiltrado" style="width: 15%" size="large">
-        <option value="Grass">Grass</option>
-        <option  value="Poison">Poison</option>
-        <option  value="Fire">Fire</option>
-        <option  value="Flying">Flying</option>
-        <option  value="Water">Water</option>
-        <option  value="Bug">Bug</option>
-        <option  value="Normal">Normal</option>
-        <option  value="Electric">Electric</option>
-        <option  value="Ground">Ground</option>
-        <option  value="Fighting">Fighting</option>
-        <option  value="Psychic">Psychic</option>
-        <option  value="Rock">Rock</option>
-        <option  value="Ice">Ice</option>
-        <option  value="Ghost">Ghost</option>
-        <option  value="Dragon">Dragon</option>
-    </select>
-    <div id="valores-select"></div>
-     <div id="renderizando" class="container-fluid"></div>
-    </div>
+      <header class="bienvenida">
+        <div class="titulo">
+          <audio  class="audio"  src="audio/pokemon.mp3.mp3" controls="controls"></audio>
+          <h1>Bienvenido al mundo Pokemon Go!</h1>
+        </div>
+        <div>
+          <img  src="./imagen/pokemon.jpg" class="img-banner">
+        </div>
+        <p>Donde conoceras mas sobre tus pokemones favoritos o cosas que no sabias sobre ellos </p>
+        <p><strong>¿Qué es Pokémon GO? ¿Por qué todo el mundo juega?</strong></p>
+      </header>
+      <main class="introduccion">
+        <p>
+        <a href="https://pokemaster.es/pokemon-go/" target="_blank">Pokémon GO</a> es la nueva experiencia jugable para móviles ofrecida por
+        <strong> Pokémon Company</strong> en colaboración con <strong> Niantic </strong> lanzada oficialmente el 6 de julio y llegando a diversos países, incluídos los de habla hispana, en los días posteriores. 
+        Esta aplicación hace uso de la realidad aumentada de los teléfonos móviles para mostrar a los Pokémon 
+        en nuestro mundo, utilizando para ello nuestra propia localización y funciones de GPS , como si de Google Maps 
+        se tratase, haciendo para ello un uso excesivo de la batería y de los datos móviles, para lo cual ya os adelantamos
+        en su momento una 
+        <a href=" https://pokemaster.es/guia-para-ahorrar-bateria-y-datos-en-pokemon-go-no-97823/" target="_blank"> serie de consejos para evitar estos problemas</a>
+        La aplicación de por sí contiene todo lo necesario para llevar a cabo nuestra aventura, funcionando
+        de esta forma como Pokédex, Mochila, Equipo, entre otros tantos escenarios típicos de los juegos clásicos,
+        así como nuevos, tales como el rádar de localización de especies cercanas.
+        Asimismo, para poder hacer uso de la misma, será necesario salir a la calle, moviéndose por nuestra zona para
+        encontrar o bien Pokémon salvajes que podremos capturar por un nuevo método, así como encontrar las Poképaradas,
+        zonas especiales que nos darán objetos de todo tipo, incluso huevos</p>
+        <div class="contenedor_global">
+          <button id="ordenarAz">Ordenar por nombre de A-Z</button>
+          <button id="ordenarZa">Ordenar por nombre de Z-A</button>
+          <button id="calculate">Calcular de KG-LIBRAS</button>
+          <label for="">Fltrar por tipo de Pokemon</label>
+          <select id="opcionesDeFiltrado" style="width: 15%" size="large">
+            <option value="Grass">Grass</option>
+            <option  value="Poison">Poison</option>
+            <option  value="Fire">Fire</option>
+            <option  value="Flying">Flying</option>
+            <option  value="Water">Water</option>
+            <option  value="Bug">Bug</option>
+            <option  value="Normal">Normal</option>
+            <option  value="Electric">Electric</option>
+            <option  value="Ground">Ground</option>
+            <option  value="Fighting">Fighting</option>
+            <option  value="Psychic">Psychic</option>
+            <option  value="Rock">Rock</option>
+            <option  value="Ice">Ice</option>
+            <option  value="Ghost">Ghost</option>
+            <option  value="Dragon">Dragon</option>
+          </select>
+          <div id="valores-select"></div>
+          <div id="renderizando" class="container-fluid"></div>
+        </div>
 
     <!-- <script src="./data/injuries/injuries.js"></script>  -->
     <script src="./data/pokemon/pokemon.js"></script>
-    <script src="main.js"></script>
     <script src="data.js"></script>
+    <script src="main.js"></script>
     </main>
-  </div>
   </body>
   </html>
