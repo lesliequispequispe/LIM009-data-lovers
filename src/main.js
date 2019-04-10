@@ -2,7 +2,6 @@
 const containerPokemonsElement = document.getElementById('renderizando');
 /* POKEMON es un objeto y pokemon es un array de objetos y trae el array de objetos en pokemon1*/
 const arrDataPokemons = POKEMON.pokemon;
-/* Creando a la función para pintar los pokemons */
 const pintarPokemons = (data) => {
   let string = '';
   for (let i = 0; i < data.length; i++) {
@@ -10,7 +9,7 @@ const pintarPokemons = (data) => {
                 <div class="imagen-pokemon">
                   <img src=${data[i].img} alt=${data[i].name} />
                 </div>  
-                <div id="card" class="card1">
+                <div id='card' class='card1'>
                   <h4>Nombre: ${data[i].name} </h4>
                   <p>Tipo:${data[i].type}</p>
                   <p>Altura: ${data[i].height}</p> 
@@ -33,7 +32,7 @@ const pintarCalculo = (data) => {
         <div class="imagen-pokemon">
            <img src=${data[i].img} alt=${data[i].name} />
         </div>  
-        <div id="card" class="card1">
+        <div id='card' class='card1'>
           <h4>Nombre: ${data[i].name} </h4>
           <p>Peso:${data[i].weight}</p>
           <p>Tipo:${data[i].type}</p>

@@ -24,10 +24,15 @@ box-sizing: border-box;
   color: aliceblue;
   
 }
-.banner {
-  width: 100%;
+
   
-}
+  @media screen and (min-width : 370px){
+
+
+  }
+  
+  
+
 
 .img-banner{
   width:100%;
